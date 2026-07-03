@@ -1,116 +1,99 @@
-# 🏥 Rondivo Médecine
+<p align="center">
+  <img src="images/banner.png" alt="AI Medical Appointment Platform" width="100%">
+</p>
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Flask](https://img.shields.io/badge/Flask-Web_Framework-black)
-![React](https://img.shields.io/badge/React-Frontend-61DAFB)
-![AI](https://img.shields.io/badge/Artificial_Intelligence-Machine_Learning-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-![Status](https://img.shields.io/badge/Status-In_Development-orange)
+<h1 align="center">
+🏥 AI Medical Appointment Platform
+</h1>
 
-> **Projet académique réalisé dans le cadre du cours _Building AI_.**
+<p align="center">
+An intelligent healthcare platform that leverages Artificial Intelligence to simplify medical appointment management, electronic health records, and clinical decision support.
+</p>
 
----
+<p align="center">
 
-# 📖 Description
+<img src="https://img.shields.io/badge/Python-3.12-blue?logo=python">
 
-**Rondivo Médecine** est une plateforme numérique intelligente qui modernise les services de santé grâce à l'intelligence artificielle.
+<img src="https://img.shields.io/badge/React-Frontend-61DAFB?logo=react">
 
-Le projet facilite :
+<img src="https://img.shields.io/badge/Flask-Backend-black?logo=flask">
 
-- 📅 la prise de rendez-vous médicaux ;
-- 🩺 la gestion des dossiers médicaux électroniques ;
-- 🤖 l'assistance à la décision médicale ;
-- 📊 l'analyse prédictive des données de santé ;
-- 🔔 le suivi personnalisé des patients.
+<img src="https://img.shields.io/badge/MySQL-Database-blue?logo=mysql">
 
-L'objectif est d'améliorer l'accès aux soins tout en garantissant la sécurité et la confidentialité des données médicales.
+<img src="https://img.shields.io/badge/TensorFlow-AI-orange?logo=tensorflow">
 
----
+<img src="https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E?logo=scikitlearn">
 
-# 🎯 Objectifs
+<img src="https://img.shields.io/badge/License-MIT-green">
 
-- Digitaliser les services médicaux.
-- Simplifier la prise de rendez-vous.
-- Réduire les délais d'attente.
-- Améliorer le suivi des patients.
-- Centraliser les dossiers médicaux.
-- Aider les professionnels de santé grâce à l'IA.
-- Garantir la sécurité des données médicales.
+<img src="https://img.shields.io/badge/Status-In%20Development-orange">
+
+</p>
 
 ---
 
-# 👥 Utilisateurs
+# 📖 Overview
 
-## 👤 Patients
+AI Medical Appointment Platform is an intelligent healthcare management system designed to modernize medical services through Artificial Intelligence and Machine Learning technologies.
 
-- Création d'un compte
-- Recherche de médecins
-- Prise de rendez-vous
-- Consultation du dossier médical
-- Réception de rappels
-- Communication avec les médecins
+The platform helps healthcare providers improve patient care while simplifying appointment scheduling, medical record management, and clinical decision-making.
 
-## 👨‍⚕️ Médecins
-
-- Gestion de l'agenda
-- Consultation des dossiers
-- Suivi des traitements
-- Prescription médicale
-- Gestion des consultations
-
-## 👨‍💼 Administrateurs
-
-- Gestion des utilisateurs
-- Sécurité de la plateforme
-- Sauvegardes
-- Supervision générale
+It provides a secure and user-friendly environment for patients, doctors, and administrators.
 
 ---
 
-# ⚙️ Fonctionnement
+# ✨ Features
 
-```text
-Patient
-      │
-      ▼
-Création du compte
-      │
-      ▼
-Recherche d'un médecin
-      │
-      ▼
-Prise de rendez-vous
-      │
-      ▼
-Notification du médecin
-      │
-      ▼
-Consultation
-      │
-      ▼
-Mise à jour du dossier médical
-      │
-      ▼
-Suivi personnalisé par IA
-```
+## 👤 Patient
+
+- Create a personal account
+- Search doctors by specialty
+- Book appointments online
+- View medical history
+- Receive appointment reminders
+- Receive treatment reminders
+- Secure messaging with doctors
 
 ---
 
-# 🧠 Intelligence Artificielle
+## 👨‍⚕️ Doctor
 
-Le projet utilise plusieurs techniques d'IA.
+- Manage appointments
+- View patient medical records
+- Create prescriptions
+- Update treatments
+- Access AI-assisted recommendations
+- Manage consultation history
 
-## Classification
+---
 
-Identifier automatiquement le spécialiste adapté selon :
+## 👨‍💼 Administrator
 
-- symptômes
-- âge
-- sexe
-- antécédents médicaux
-- facteurs de risque
+- Manage users
+- Manage doctors
+- Manage appointments
+- Monitor platform activity
+- Manage security
+- Backup database
+- Generate statistics
 
-Algorithmes envisagés :
+---
+
+# 🤖 Artificial Intelligence Features
+
+The platform integrates several Artificial Intelligence techniques to improve healthcare services.
+
+## Disease Prediction
+
+Predict diseases from:
+
+- Symptoms
+- Age
+- Gender
+- Medical history
+- Risk factors
+
+Algorithms:
 
 - Decision Tree
 - Random Forest
@@ -118,225 +101,444 @@ Algorithmes envisagés :
 
 ---
 
-## Machine Learning
+## Clinical Decision Support
 
-Les modèles permettent :
+The AI system assists healthcare professionals by recommending:
 
-- la prédiction de maladies ;
-- la détection des patients à risque ;
-- l'estimation des complications.
-
----
-
-## Traitement du Langage Naturel (NLP)
-
-Le NLP est utilisé pour :
-
-- analyser les symptômes écrits par les patients ;
-- assister un chatbot médical ;
-- extraire des informations utiles des comptes rendus médicaux.
+- Suitable specialists
+- Additional medical examinations
+- Risk assessment
+- Treatment suggestions
 
 ---
 
-## Analyse prédictive
+## Natural Language Processing (NLP)
 
-L'IA peut :
+The NLP module can:
 
-- détecter les risques médicaux ;
-- recommander des examens ;
-- prévoir les consultations futures.
-
----
-
-## Système de recommandation
-
-Le système peut proposer :
-
-- rappels de traitements ;
-- rappels de rendez-vous ;
-- conseils médicaux personnalisés ;
-- examens complémentaires.
+- Analyze patient symptoms
+- Extract information from medical reports
+- Power an intelligent medical chatbot
 
 ---
 
-# 📊 Sources de données
+## Predictive Analytics
 
-- Dossiers médicaux électroniques
-- Résultats de laboratoire
-- Imagerie médicale
-- Consultations
-- Ordonnances
-- Prescriptions
-- Bases de données médicales anonymisées
+The AI models can:
 
----
-
-# 🔒 Sécurité
-
-La plateforme prévoit :
-
-- Chiffrement des données
-- Authentification sécurisée
-- Gestion des accès
-- Sauvegardes automatiques
-- Journalisation des actions
-- Protection des données personnelles
+- Identify high-risk patients
+- Predict future consultations
+- Estimate disease progression
+- Predict possible complications
 
 ---
 
-# ⚠️ Défis
+## Recommendation System
 
-## Techniques
+The recommendation engine provides:
 
-- Qualité des données
-- Performance
-- Précision des modèles
-- Interopérabilité
-
-## Juridiques
-
-- Protection des données
-- Confidentialité
-- Conformité réglementaire
-
-## Humains
-
-- Adoption par les médecins
-- Confiance des patients
-- Facilité d'utilisation
+- Medication reminders
+- Appointment reminders
+- Personalized healthcare advice
+- Follow-up recommendations
 
 ---
 
-# 🚀 Perspectives
+# 🏗️ System Architecture
 
-Les futures versions intégreront :
+```mermaid
+flowchart TD
 
-- 📱 Application Android / iOS
-- 💻 Téléconsultation
-- 🤖 Chatbot médical
-- ⌚ Montres connectées
-- 🧠 Deep Learning
-- 📄 Génération automatique de rapports
-- 🌍 Traduction multilingue
-- 💳 Paiement en ligne
-- 💊 Intégration avec les pharmacies
+Patient --> ReactFrontend
+
+Doctor --> ReactFrontend
+
+Administrator --> ReactFrontend
+
+ReactFrontend --> FlaskAPI
+
+FlaskAPI --> AIModels
+
+FlaskAPI --> Database
+
+AIModels --> DiseasePrediction
+
+AIModels --> RecommendationSystem
+
+Database --> MedicalRecords
+```
 
 ---
 
-# 🛠️ Technologies
+# ⚙️ Technology Stack
 
 ## Front-end
 
+- React
 - HTML5
 - CSS3
 - JavaScript
-- React
 
 ## Back-end
 
 - Python
 - Flask
-- Django
 
-## Base de données
+## Database
 
 - MySQL
 - PostgreSQL
 
-## Intelligence Artificielle
+## Artificial Intelligence
 
 - Scikit-learn
 - TensorFlow
 - Pandas
 - NumPy
 
+## Tools
+
+- Git
+- GitHub
+- Visual Studio Code
+
 ---
 
-# 📁 Structure du projet
+# 📂 Project Structure
 
 ```text
-Rondivo-Medecine/
+AI-Medical-Appointment/
 
-├── README.md
-├── LICENSE
-├── requirements.txt
+│
 ├── backend/
+│   ├── app.py
+│   ├── routes/
+│   ├── controllers/
+│   ├── services/
+│   ├── models/
+│
 ├── frontend/
+│   ├── src/
+│   ├── public/
+│
 ├── database/
+│
+├── ai/
+│
 ├── data/
-├── models/
-├── notebooks/
+│
 ├── docs/
-└── images/
+│
+├── images/
+│
+├── requirements.txt
+│
+├── README.md
+│
+└── LICENSE
 ```
-
 ---
 
 # 🚀 Installation
 
+## Prerequisites
+
+Before getting started, make sure you have the following installed:
+
+- Python 3.10+
+- Node.js 18+
+- Git
+- MySQL or PostgreSQL
+
+---
+
+## Clone the repository
+
 ```bash
-git clone https://github.com/votre-utilisateur/rondivo-medecine.git
+git clone https://github.com/amisaoud-commits/rendez-vous-medical.git
 
-cd rondivo-medecine
-
-pip install -r requirements.txt
+cd rendez-vous-medical
 ```
 
 ---
 
-# 📈 Résultats attendus
+## Backend Setup
 
-- Amélioration de la gestion des rendez-vous
-- Réduction des délais d'attente
-- Assistance intelligente aux médecins
-- Meilleur suivi médical
-- Amélioration de la qualité des soins
+Create a virtual environment:
+
+```bash
+python -m venv venv
+```
+
+Activate it:
+
+### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+### Linux / macOS
+
+```bash
+source venv/bin/activate
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the backend:
+
+```bash
+python app.py
+```
 
 ---
 
-# ⚠️ Avertissement
+## Frontend Setup
 
-Ce projet est développé uniquement dans un cadre académique dans le cours **Building AI**.
+```bash
+cd frontend
 
-Il s'agit d'un prototype pédagogique et ne remplace en aucun cas un système médical professionnel ou un avis médical.
+npm install
+
+npm start
+```
+
+or
+
+```bash
+npm run dev
+```
 
 ---
 
-# 👨‍💻 Auteur
+# ▶️ Usage
+
+Once both backend and frontend are running, open your browser and navigate to:
+
+```
+http://localhost:3000
+```
+
+You can now:
+
+- Register as a patient
+- Log in securely
+- Search for doctors
+- Book appointments
+- Access medical records
+- Receive AI-powered recommendations
+
+---
+
+# 📸 Screenshots
+
+## Home Page
+
+![Home](images/home.png)
+
+---
+
+## Login
+
+![Login](images/login.png)
+
+---
+
+## Patient Dashboard
+
+![Dashboard](images/dashboard.png)
+
+---
+
+## Appointment Booking
+
+![Appointment](images/appointment.png)
+
+---
+
+# 🔒 Security
+
+Security is a key aspect of the platform.
+
+Implemented features include:
+
+- Secure Authentication
+- Password Encryption
+- Role-Based Access Control
+- Secure Database Connections
+- Data Backup
+- Audit Logs
+- Protection of Sensitive Medical Data
+
+Future improvements:
+
+- Two-Factor Authentication (2FA)
+- OAuth Authentication
+- JWT Authentication
+- End-to-End Encryption
+
+---
+
+# 📊 Data Sources
+
+The AI models may use data from:
+
+- Electronic Health Records
+- Laboratory Results
+- Medical Imaging
+- Clinical Reports
+- Medical Prescriptions
+- Anonymous Medical Datasets
+
+> **Note:** No real patient data should be used without proper authorization and compliance with applicable privacy regulations.
+
+---
+
+# ⚠️ Challenges
+
+## Technical Challenges
+
+- Data quality
+- Model accuracy
+- Scalability
+- API performance
+- Hospital system interoperability
+
+---
+
+## Legal Challenges
+
+- Patient privacy
+- Medical confidentiality
+- Regulatory compliance
+- Data protection
+
+---
+
+## Human Challenges
+
+- User adoption
+- AI transparency
+- Patient trust
+- Ease of use
+
+---
+
+# 🚀 Future Improvements
+
+- Mobile Application (Android & iOS)
+- AI Medical Chatbot
+- Telemedicine
+- Online Payments
+- Wearable Device Integration
+- Deep Learning Models
+- Automatic Medical Report Generation
+- Multi-language Support
+- Cloud Deployment
+
+---
+
+# 🗺️ Project Roadmap
+
+- [x] Project Planning
+- [x] Documentation
+- [x] README
+- [ ] User Authentication
+- [ ] Doctor Dashboard
+- [ ] Patient Dashboard
+- [ ] Appointment Management
+- [ ] Electronic Medical Records
+- [ ] AI Disease Prediction
+- [ ] Recommendation Engine
+- [ ] Medical Chatbot
+- [ ] Mobile Application
+- [ ] Cloud Deployment
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+If you'd like to contribute:
+
+1. Fork the repository
+2. Create a feature branch
+
+```bash
+git checkout -b feature/my-feature
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Add my new feature"
+```
+
+4. Push your branch
+
+```bash
+git push origin feature/my-feature
+```
+
+5. Open a Pull Request
+
+Please make sure your code follows the project's coding standards and includes appropriate documentation.
+
+---
+
+# 👨‍💻 Author
 
 **Amine Saoud**
 
-Projet réalisé dans le cadre du cours **Building AI**.
+Academic Project – Building AI
+
+GitHub:
+
+```
+https://github.com/amisaoud-commits
+```
 
 ---
 
-# 📚 Références
+# 🙏 Acknowledgments
 
-- Organisation Mondiale de la Santé (OMS)
-- Documentation Python
-- Documentation Scikit-learn
-- Documentation TensorFlow
-- Documentation React
-- Documentation Flask
+Special thanks to:
 
----
-
-# 📄 Licence
-
-Ce projet est distribué sous licence **MIT**.
+- My Building AI instructor
+- My university
+- Open-source communities
+- Python Community
+- React Community
+- Flask Community
+- TensorFlow Community
+- Scikit-learn Community
 
 ---
 
-# 🙏 Remerciements
+# 📄 License
 
-Je remercie sincèrement :
+This project is distributed under the **MIT License**.
 
-- mon enseignant du cours **Building AI** ;
-- mon établissement ;
-- OpenAI pour les outils d'assistance à l'apprentissage ;
-- mes camarades de promotion ;
-- ma famille pour son soutien tout au long de ce projet.
+See the `LICENSE` file for more information.
 
 ---
 
-⭐ **Si ce projet vous intéresse, n'hésitez pas à lui attribuer une étoile sur GitHub !**
+# ⭐ Support the Project
+
+If you find this project useful, please consider giving it a ⭐ on GitHub.
+
+Your support helps improve the project and motivates future development.
+
+---
+
+<p align="center">
+
+Made with ❤️ using Python, React, Flask and Artificial Intelligence.
+
+</p>
