@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="images/banner.png" alt="AI Medical Appointment Platform" width="100%">
-</p>
-
 <h1 align="center">
 🏥 AI Medical Appointment Platform
 </h1>
@@ -30,6 +26,34 @@ An intelligent healthcare platform that leverages Artificial Intelligence to sim
 
 </p>
 
+> **Building AI Course Project**
+>
+> This project demonstrates how Artificial Intelligence can improve healthcare services by assisting doctors, optimizing appointment scheduling, and providing predictive analytics for better patient care.
+
+---
+
+## 📚 Table of Contents
+
+- [Overview](#-overview)
+- [Objectives](#-objectives)
+- [Features](#-features)
+- [Artificial Intelligence Features](#-artificial-intelligence-features)
+- [System Architecture](#-system-architecture)
+- [Technology Stack](#-technology-stack)
+- [Project Structure](#-project-structure)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Security](#-security)
+- [Data Sources](#-data-sources)
+- [Challenges](#-challenges)
+- [Future Improvements](#-future-improvements)
+- [Roadmap](#-project-roadmap)
+- [Contributing](#-contributing)
+- [Author](#-author)
+- [Acknowledgments](#-acknowledgments)
+- [License](#-license)
+- [About](#-about)
+
 ---
 
 # 📖 Overview
@@ -39,6 +63,16 @@ AI Medical Appointment Platform is an intelligent healthcare management system d
 The platform helps healthcare providers improve patient care while simplifying appointment scheduling, medical record management, and clinical decision-making.
 
 It provides a secure and user-friendly environment for patients, doctors, and administrators.
+
+---
+
+# 🎯 Objectives
+
+- Modernize healthcare services
+- Simplify appointment scheduling
+- Improve patient follow-up
+- Assist doctors using Artificial Intelligence
+- Secure electronic medical records
 
 ---
 
@@ -149,23 +183,21 @@ The recommendation engine provides:
 ```mermaid
 flowchart TD
 
-Patient --> ReactFrontend
+A[Patient] --> B[React Frontend]
+C[Doctor] --> B
+D[Administrator] --> B
 
-Doctor --> ReactFrontend
+B --> E[Flask API]
 
-Administrator --> ReactFrontend
+E --> F[(Database)]
 
-ReactFrontend --> FlaskAPI
+E --> G[AI Models]
 
-FlaskAPI --> AIModels
+G --> H[Disease Prediction]
 
-FlaskAPI --> Database
+G --> I[Recommendation System]
 
-AIModels --> DiseasePrediction
-
-AIModels --> RecommendationSystem
-
-Database --> MedicalRecords
+F --> J[Medical Records]
 ```
 
 ---
@@ -195,6 +227,15 @@ Database --> MedicalRecords
 - TensorFlow
 - Pandas
 - NumPy
+
+## Main Libraries
+
+- Flask
+- Flask-CORS
+- Scikit-learn
+- TensorFlow
+- NumPy
+- Pandas
 
 ## Tools
 
@@ -237,6 +278,7 @@ AI-Medical-Appointment/
 │
 └── LICENSE
 ```
+
 ---
 
 # 🚀 Installation
@@ -290,6 +332,8 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
+See **requirements.txt** for the complete list of dependencies.
+
 Run the backend:
 
 ```bash
@@ -332,32 +376,6 @@ You can now:
 - Book appointments
 - Access medical records
 - Receive AI-powered recommendations
-
----
-
-# 📸 Screenshots
-
-## Home Page
-
-![Home](images/home.png)
-
----
-
-## Login
-
-![Login](images/login.png)
-
----
-
-## Patient Dashboard
-
-![Dashboard](images/dashboard.png)
-
----
-
-## Appointment Booking
-
-![Appointment](images/appointment.png)
 
 ---
 
@@ -498,11 +516,7 @@ Please make sure your code follows the project's coding standards and includes a
 
 Academic Project – Building AI
 
-GitHub:
-
-```
-https://github.com/amisaoud-commits
-```
+GitHub: https://github.com/amisaoud-commits
 
 ---
 
@@ -529,16 +543,18 @@ See the `LICENSE` file for more information.
 
 ---
 
-# ⭐ Support the Project
+## 💙 About
 
-If you find this project useful, please consider giving it a ⭐ on GitHub.
+This project was developed as part of the **Building AI** course.
 
-Your support helps improve the project and motivates future development.
+Its purpose is to demonstrate how Artificial Intelligence can be integrated into healthcare systems to improve efficiency, decision-making, and patient experience.
+
+Future versions will include more advanced AI models, cloud deployment, and mobile applications.
 
 ---
 
 <p align="center">
 
-Made with ❤️ using Python, React, Flask and Artificial Intelligence.
+⭐ If you like this project, don't forget to leave a star!
 
 </p>
